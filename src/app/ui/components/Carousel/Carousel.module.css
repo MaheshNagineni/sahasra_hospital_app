@@ -1,49 +1,76 @@
+.image {
+  width: 97vw;
+  max-height: 420px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 5px;
+}
+
+.p {
+  margin-top: 5px;
+  width: max-content;
+  background-color: rgba(0, 0, 0, 0.507);
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px;
+}
+
+.center {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
 .carousel {
-    position: relative;
-    overflow: hidden;
-    width: 100vw; /* Set width to fill the viewport */
-  }
-  
-  .carouselInner {
-    display: flex;
-    transition: transform 0.5s ease;
-    width: 100%; /* Ensure the inner container takes full width */
-  }
-  
-  .carouselSlide {
-    min-width: 100%;
-  }
-  
-  .carouselSlide img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-  }
-  
-  .prev,
-  .next {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    cursor: pointer;
-    padding: 10px;
-    z-index: 1;
-  }
-  
-  .prev {
-    left: 0;
-  }
-  
-  .next {
-    right: 0;
-  }
-  
+  position: relative;
+  overflow: hidden;
+  width: 100vw; /* Set width to fill the viewport */
+}
+
+.carouselInner {
+  display: flex;
+  transition: transform 0.5s ease;
+  width: 100%; /* Ensure the inner container takes full width */
+}
+
+.carouselSlide {
+  min-width: 100%;
+}
+
+.carouselSlide img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 1;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
 /* Media Query for laptop devices */
 @media only screen and (min-width: 992px) {
-    .carousel {
-      height: 500px; /* Set height to 400px for laptop devices */
-    }
+  .carousel {
+    height: 500px; /* Set height to 400px for laptop devices */
   }
+}
