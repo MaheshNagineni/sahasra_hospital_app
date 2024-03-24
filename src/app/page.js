@@ -1,15 +1,16 @@
-import Image from "next/image";
 import styles from "./page.module.css";
-import NavBar from "@/components/Navbar";
-import Carousel from "@/components/Carousel";
-import Examplenav from "@/components/Examplenav";
-import Gallery from "@/components/Gallery";
+import CarouselSection from "./ui/components/Carousel";
+import Footer from "./ui/components/Footer";
+import Gallery from "./ui/components/Gallery";
+import HostpitalInto from "./ui/components/HospitalIntro";
 
 export default function Home() {
-  return <main className={styles.main}>
-    {/* <NavBar /> */}
-    <Examplenav />
-    <Carousel />
-    <Gallery />
-  </main>;
+  return (
+    <main className={styles.main}>
+      <CarouselSection />
+      <HostpitalInto />
+      <Gallery />
+      <Footer />
+    </main>
+  );
 }
