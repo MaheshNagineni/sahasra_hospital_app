@@ -7,6 +7,13 @@
   align-items: center;
   justify-content: space-around;
   border-radius: 5px;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.image picture img {
+  max-width: 99vw;
+  height: 420px;
 }
 
 .p {

@@ -1,0 +1,40 @@
+#hospital {
+  width: 100vw;
+}
+
+.introSection {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: center;
+  width: 97vw;
+}
+
+.hospitalCard {
+  width: 100%;
+}
+
+.doctors {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+  align-items: stretch;
+  align-content: center;
+  width: 97vw;
+  margin-top: 30px;
+}
+
+@media (min-width: 768px) {
+  .hospitalCard {
+    width: 40%;
+  }
+  
+  .doctors {
+    justify-content: flex-start;
+  }
+}

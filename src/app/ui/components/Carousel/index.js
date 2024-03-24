@@ -4,16 +4,16 @@ import style from "./Carousel.module.css";
 
 const CarouselSection = () => {
   return (
-    <Carousel fade>
+    <Carousel id="home">
       <Carousel.Item>
         <div className={style.image}>
-          <img
-            srcSet="/image1.jpeg 480w, /image1.jpeg 800w"
-            sizes="(max-width: 600px) 480px,
-         800px"
-            src="elva-fairy-800w.jpg"
-            alt="Elva dressed as a fairy"
-          />
+          <picture>
+            <source
+              media="(min-width: 1024px)"
+              srcSet="/images/landscape/image1l.jpg"
+            ></source>
+            <img src="/images/potrait/image1p.jpg" alt="Image 1" />
+          </picture>
         </div>
         <Carousel.Caption>
           <h3>First slide label</h3>
@@ -26,13 +26,13 @@ const CarouselSection = () => {
       </Carousel.Item>
       <Carousel.Item>
         <div className={style.image}>
-          <img
-            srcSet="/image2.jpg 480w, /image2.jpg 800w"
-            sizes="(max-width: 600px) 480px,
-         800px"
-            src="elva-fairy-800w.jpg"
-            alt="Elva dressed as a fairy"
-          />
+          <picture>
+            <source
+              media="(min-width: 720px)"
+              srcSet="/images/landscape/image2l.jpg"
+            ></source>
+            <img src="/images/potrait/image2p.jpg" alt="Image 2" />
+          </picture>
         </div>
         <Carousel.Caption>
           <h3>Second slide label</h3>
@@ -45,12 +45,13 @@ const CarouselSection = () => {
       </Carousel.Item>
       <Carousel.Item>
         <div className={style.image}>
-          <img
-            srcSet="/image3.jpg 480w, /image3.jpg 800w"
-            sizes="(max-width: 600px) 480px, 800px"
-            src="elva-fairy-800w.jpg"
-            alt="Elva dressed as a fairy"
-          />
+          <picture>
+            <source
+              media="(min-width: 720px)"
+              srcSet="/images/landscape/image3l.jpg"
+            ></source>
+            <img src="/images/potrait/image3p.jpg" alt="Image 1" />
+          </picture>
         </div>
         <Carousel.Caption>
           <Button onClick={() => alert("Not yet implemented")}>
