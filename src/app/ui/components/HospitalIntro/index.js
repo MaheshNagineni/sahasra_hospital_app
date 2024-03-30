@@ -48,16 +48,19 @@ const HostpitalInto = () => {
         >
           <Ratio aspectRatio="16x9">
             <iframe
-              height="480"
-              width="500"
-              src="https://www.youtube.com/embed/aPy5qZJoDas?autoplay=1&mute=1"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/ctGLFRIULH8?si=wphI0wKlsOubCcr7?autoplay=1&mute=0"
+              title="Sahasra Hospitals"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
             ></iframe>
           </Ratio>
         </div>
       </div>
-          <hr />
+      <hr />
       {/* doctors */}
       <h3>Our Doctors</h3>
       <div className={styles.doctors}>
