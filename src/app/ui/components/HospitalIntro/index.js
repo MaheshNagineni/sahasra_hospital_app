@@ -76,12 +76,12 @@ const HostpitalInto = () => {
       <div className={styles.doctors}>
         {doctors.map((doctor, index) => {
           return (
-            <Card style={{ width: "22rem" }} key={index}>
+            <Card className={styles.doctorCard} key={index}>
               <Card.Img
                 variant="top"
                 src={doctor.image}
                 width="340px"
-                height="240px"
+                height="440px"
               />
               <Card.Body>
                 <Card.Title>{doctor.name}</Card.Title>
@@ -91,10 +91,10 @@ const HostpitalInto = () => {
                 <ListGroup.Item>{doctor.qualifications}</ListGroup.Item>
                 <ListGroup.Item>{doctor.experience}</ListGroup.Item>
               </ListGroup>
-              <Card.Body>
+              {/* <Card.Body>
                 <Card.Link href="#">Card Link</Card.Link>
                 <Card.Link href="#">Another Link</Card.Link>
-              </Card.Body>
+              </Card.Body> */}
             </Card>
           );
         })}
@@ -110,7 +110,7 @@ const doctors = [
     specialization: "Interventional Cardiologist",
     experience: "Consultant in Apollo Hospital",
     regNo: "Reg.No. 67034",
-    image: "/images/male_doctor.jpeg",
+    image: "/images/IMG_1358.jpg",
   },
   {
     name: "Dr. Sujitha. Gurram",
@@ -118,7 +118,7 @@ const doctors = [
     specialization: "Neuro Psychiatrist",
     experience: "Ex. Resident in Narayana Medical College",
     regNo: "Reg.No. 79562",
-    image: "/images/female_doctor.jpeg",
+    image: "/images/IMG_1399.jpg",
   },
 ];
 
