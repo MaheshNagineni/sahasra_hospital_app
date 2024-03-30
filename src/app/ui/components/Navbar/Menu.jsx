@@ -32,7 +32,7 @@ const navLinks = [
   { name: "Book Appoinment", url: "/#appoinment" },
   { name: "Gallery", url: "/#gallery" },
   { name: "Contacts", url: "/#contact-us" },
-  { name: "About", url: "/#about-us" },
+  { name: "Follow Us", url: "/#follow-us" },
 ];
 
 export default Menu;
