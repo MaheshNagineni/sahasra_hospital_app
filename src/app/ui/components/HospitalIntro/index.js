@@ -19,11 +19,6 @@ const HostpitalInto = () => {
               Road, Mogathota, Landmark: Near Vijaymahal Gate, Nellore
             </Card.Subtitle>
             <Card.Text>
-              {/* <p className="text">
-                Sahasra Heart And Mind Care is an Interventional Cardiology
-                Clinic in Nellore Z.P, Nellore. The clinic is visited by
-                addiction psychiatrist like Dr. Sujitha Gurram.
-              </p> */}
               <p className="text">
                 Some of the services provided by the Clinic are: Online
                 Counselling, 2D Echo and Color Doppler, Male Infertility

@@ -14,6 +14,15 @@
   width: 50%;
 }
 
+.contactLink {
+  text-decoration: none;
+  color: var(--color1);
+  cursor: pointer;
+}
+.contactLink:hover {
+  color: var(--color2);
+}
+
 @media (max-width: 768px) {
   .footer {
     flex-direction: column;
