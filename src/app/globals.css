@@ -1,3 +1,28 @@
+:root {
+  --color1: #17224d;
+  --color2: #0baac2;
+  --color3: #038498;
+  --color4: #b3efe4;
+  --color5: #f8f8ff;
+  --color6: #ef363c;
+}
+
+.heading,
+.subheading {
+  color: var(--color1);
+  cursor: pointer;
+}
+
+.text {
+  color: var(--color1);
+  cursor: pointer;
+  transition: all 300ms linear;
+}
+
+.text:hover {
+  color: var(--color3);
+}
+
 /* custom css */
 * {
   box-sizing: border-box;
