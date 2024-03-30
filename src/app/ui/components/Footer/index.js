@@ -3,6 +3,7 @@
 import React from "react";
 import styles from "./Footer.module.css";
 import { Card } from "react-bootstrap";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -10,8 +11,8 @@ const Footer = () => {
       {/* about */}
       <Card className={styles.card} id="about-us">
         <Card.Body>
-          <Card.Title>About Us</Card.Title>
-          <Card.Text>
+          <Card.Title className="heading">About Us</Card.Title>
+          <Card.Text className="text">
             Sahasra Heart And Mind Care is a renowned Interventional Cardiology
             Clinic located in Nellore Z.P, Nellore. Our clinic is committed to
             providing comprehensive and compassionate care to patients suffering
@@ -27,20 +28,39 @@ const Footer = () => {
       {/* contact-us */}
       <Card className={styles.card} id="contact-us">
         <Card.Body>
-          <Card.Title>Contact Us</Card.Title>
+          <Card.Title className="heading">Contact Us</Card.Title>
           <Card.Text>
-            <b>Address:</b> <br />
-            Sahasra Heart And Mind Care is an Interventional Cardiology Clinic
-            in Nellore Z.P, Nellore. The clinic is visited by addiction
-            psychiatrist like Dr. Sujitha Gurram.
+            <b className="subheading">Address:</b> <br />
+            <p className="text">
+              Sahasra Heart And Mind Care is an Interventional Cardiology Clinic
+              in Nellore Z.P, Nellore. The clinic is visited by addiction
+              psychiatrist like Dr. Sujitha Gurram.
+            </p>
+            <b className="subheading">Phone:</b>{" "}
+            <Link className={styles.contactLink} href="tel:919505017111">
+              9505017111
+            </Link>
+            ,
+            <Link className={styles.contactLink} href="tel:919014046924">
+              9014046924
+            </Link>
             <br />
-            <b>Phone:</b> 9876543210<br />
-            <b>Timinings:</b> <br />
-            Mon-Fri&nbsp;: 10:00 AM - 8:00 PM,
+            <b className="subheading">Email:</b>{" "}
+            <Link
+              className={styles.contactLink}
+              href="mailto:Sahasraheartandmindcare@gmail.com"
+            >
+              sahasraheartandmindcare@gmail.com
+            </Link>
             <br />
-            Sat &nbsp; &nbsp; &nbsp; &nbsp; : 09:00 AM - 8:00 PM,
-            <br />
-            Sun &nbsp; &nbsp; &nbsp; &nbsp;: 11:00 AM - 9:00 PM.
+            <b className="subheading">Timinings:</b>
+            <p className="text">
+              Mon-Fri&nbsp;: 10:00 AM - 8:00 PM,
+              <br />
+              Sat &nbsp; &nbsp; &nbsp; &nbsp; : 09:00 AM - 8:00 PM,
+              <br />
+              Sun &nbsp; &nbsp; &nbsp; &nbsp;: 11:00 AM - 9:00 PM.
+            </p>
           </Card.Text>
         </Card.Body>
       </Card>
