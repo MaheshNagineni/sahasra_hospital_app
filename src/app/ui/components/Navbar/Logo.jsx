@@ -5,8 +5,8 @@ import Image from "next/image";
 
 const Logo = () => {
   return (
-    <Link href={process.env.NEXT_PUBLIC_BASE_URL} className={styles.logo}>
-      <Image alt="Sahasra Hospitals" src={"/next.svg"} width="80" height="30" />
+    <Link href="#home" className={styles.logo}>
+      <Image alt="Sahasra Hospitals" src={"/images/logo.png"} width="220" height="80" />
     </Link>
   );
 };

@@ -1,0 +1,13 @@
+.bookAppointment {
+  width: 97vw;
+}
+
+.services {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}

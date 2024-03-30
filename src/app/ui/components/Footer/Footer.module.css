@@ -1,23 +1,76 @@
 .footer {
+  width: 97vw;
+  border-radius: 5px;
+  background-color: var(--color1);
+  padding: 30px 10px 30px 10px;
+}
+
+.sec1 {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
   justify-content: space-around;
   gap: 25px;
-  width: 97vw;
-  border-radius: 5px;
-  background-color: #BFD4E6;
-  padding: 30px 10px 30px 10px;
+}
+
+.sec2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  gap: 5px;
+  color: var(--color5);
+  width: 100%;
+}
+
+.sec2 h3 {
+  width: 100%;
+  text-align: center;
+}
+
+.sec2 .socialLinks {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  gap: 20px;
+  color: var(--color5);
+  width: 100%;
+}
+
+.sec2 .socialLinks a {
+  color: aliceblue;
+  transition: all 500ms ease-in-out;
+}
+
+.sec2 .socialLinks a:hover {
+  transform: scale(1.5);
 }
 
 .card {
   width: 50%;
 }
 
+.contactLink {
+  text-decoration: none;
+  color: var(--color1);
+  cursor: pointer;
+}
+.contactLink:hover {
+  color: var(--color2);
+}
+
 @media (max-width: 768px) {
   .footer {
     flex-direction: column;
   }
+
+  .sec1 {
+    flex-direction: column;
+  }
+  
   .card {
     width: 100%;
   }

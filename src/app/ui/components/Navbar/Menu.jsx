@@ -29,10 +29,10 @@ const Menu = () => {
 const navLinks = [
   { name: "Home", url: "/#home" },
   { name: "Hospital & Doctors", url: "/#hospital" },
-  { name: "Book Appoinment", url: "/#appoinment" },
+  { name: "Book Appointment", url: "/#appointment" },
   { name: "Gallery", url: "/#gallery" },
-  { name: "Contacts", url: "/#contact-us" },
-  { name: "About", url: "/#about-us" },
+  { name: "Contacts", url: "/#about-us" },
+  { name: "Follow Us", url: "/#follow-us" },
 ];
 
 export default Menu;
