@@ -4,9 +4,13 @@ import "./globals.css";
 import dynamic from "next/dynamic";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
+import { Skeleton } from "@mui/material";
 config.autoAddCss = false;
 
-const NavBar = dynamic(() => import("./ui/components/Navbar"), { ssr: false });
+const NavBar = dynamic(() => import("./ui/components/Navbar"), {
+  ssr: false,
+  loading: () => <Skeleton variant="rounded" width="100%" height={90} />,
+});
 
 const inter = Inter({ subsets: ["latin"] });
 

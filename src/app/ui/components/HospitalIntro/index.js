@@ -4,7 +4,7 @@ import React from "react";
 import { Card, ListGroup, Ratio } from "react-bootstrap";
 import styles from "./HospitalIntro.module.css";
 
-const HostpitalInto = () => {
+const HostpitalIntro = () => {
   return (
     <div id="hospital">
       {/* intro */}
@@ -117,4 +117,4 @@ const doctors = [
   },
 ];
 
-export default HostpitalInto;
+export default HostpitalIntro;
