@@ -14,16 +14,27 @@ const HostpitalIntro = () => {
             <Card.Title className="heading">
               Sahasra Heart And Mind Care
             </Card.Title>
-            <Card.Subtitle className="mb-2 text text-muted">
-              Multi-speciality Clinic Nellore Z.P, Nellore 16/782, Nagulamitta
-              Road, Mogathota, Landmark: Near Vijaymahal Gate, Nellore
-            </Card.Subtitle>
             <Card.Text>
+              <p className="subheading">Psychiatry</p>
               <p className="text">
-                Some of the services provided by the Clinic are: Online
-                Counselling, 2D Echo and Color Doppler, Male Infertility
-                Treatment, Premarital Counseling, and ECG etc. Click on map to
-                find directions to reach Sahasra Heart And Mind Care.
+                We provide psychiatry treatment for all disorders like
+                schizophrenia,BIPOLAR,disorder,depression,anxiety behavioural
+                disturbances. We have counselling services for all problems and
+                we treat sleep problems and also de-addiction for alcohol,
+                cigarettes,cannabis,gaming. We also provide stress management
+                therapy for both children and adults.
+              </p>
+              <p className="subheading">Cardiology</p>
+              <p className="text">
+                We provide comprehensive health care regarding to all cardiac
+                problems. Expertise in Coronary stenting, pacemakers, structural
+                heart interventions, peripheral vessel stenting.
+                <ul>
+                  <li>CARDIAC CONSULTATION</li>
+                  <li>ECG</li>
+                  <li>ECHO</li>
+                  <li>TMT</li>
+                </ul>
               </p>
               <div className={styles.googleMap}>
                 <iframe
@@ -108,7 +119,7 @@ const doctors = [
     image: "/images/IMG_1358.jpg",
   },
   {
-    name: "Dr. Sujitha. Gurram",
+    name: "Dr. Sujitha Gurram",
     qualifications: "MBBS, MD (Psychiatry)",
     specialization: "Neuro Psychiatrist",
     experience: "Ex. Resident in Narayana Medical College",
