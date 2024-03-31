@@ -11,6 +11,12 @@
 .subheading {
   color: var(--color1);
   cursor: pointer;
+  font-weight: 500;
+}
+
+
+.subheading:hover {
+  color: var(--color3);
 }
 
 .text {

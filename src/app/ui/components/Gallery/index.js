@@ -4,7 +4,7 @@ import styles from "./Gallery.module.css";
 
 const tabsList = [
   { tabId: "CARDIOLOGY", displayText: "Cardiology" },
-  { tabId: "PSYCHIATRIST", displayText: "Psychiatrist" },
+  { tabId: "Psychiatry", displayText: "Psychiatry" },
   { tabId: "HOSPITAL", displayText: "Hospital" },
 ];
 

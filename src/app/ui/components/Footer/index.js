@@ -25,14 +25,15 @@ const Footer = () => {
             <Card.Title className="heading">About Us</Card.Title>
             <Card.Text className="text">
               Sahasra Heart And Mind Care is a renowned Interventional
-              Cardiology Clinic located in Nellore Z.P, Nellore. Our clinic is
-              committed to providing comprehensive and compassionate care to
-              patients suffering from heart and mental health issues. Led by Dr.
-              Sujitha Gurram, an experienced addiction psychiatrist, our team
-              strives to offer personalized treatment plans tailored to each
-              patient's needs. With a focus on excellence and innovation, we aim
-              to deliver top-quality healthcare services in a supportive and
-              caring environment.
+              Cardiology and Psychiatry Clinic located in Nellore Z.P, Nellore.
+              Our clinic is committed to providing comprehensive and
+              compassionate care to patients suffering from Heart and Mental
+              Health issues. Led by Dr. Nagabhushan D and Dr. Sujitha Gurram, an
+              experienced Cardiologist and Psychiatrist, our team strives to
+              offer personalized treatment plans tailored to each patient's
+              needs. With a focus on excellence and innovation, we aim to
+              deliver top-quality healthcare services in a supportive and caring
+              environment.
             </Card.Text>
           </Card.Body>
         </Card>
@@ -44,9 +45,8 @@ const Footer = () => {
             <Card.Text>
               <b className="subheading">Address:</b> <br />
               <p className="text">
-                Sahasra Heart And Mind Care is an Interventional Cardiology
-                Clinic in Nellore Z.P, Nellore. The clinic is visited by
-                addiction psychiatrist like Dr. Sujitha Gurram.
+                Besides Siddhartha Hospital, Near Vijaymahal Gate, Pogathota,
+                Nellore - 524001, Andhra Pradesh
               </p>
               <b className="subheading">Phone:</b>{" "}
               <Link className={styles.contactLink} href="tel:919505017111">

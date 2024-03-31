@@ -46,9 +46,9 @@ const CarouselSection = () => {
           <picture>
             <source
               media="(min-width: 720px)"
-              srcSet="/images/potrait/rates1.JPG"
+              srcSet="/images/potrait/rates.JPG"
             ></source>
-            <img src="/images/potrait/rates1.JPG" alt="rates1" />
+            <img src="/images/potrait/rates.JPG" alt="rates" />
           </picture>
         </div>
       </Carousel.Item>
@@ -57,9 +57,9 @@ const CarouselSection = () => {
           <picture>
             <source
               media="(min-width: 720px)"
-              srcSet="/images/potrait/rate2.JPG"
+              srcSet="/images/landscape/about1-fe.JPG"
             ></source>
-            <img src="/images/potrait/rate2.JPG" alt="rates2" />
+            <img src="/images/landscape/about1-fe.JPG" alt="about1-fe" />
           </picture>
         </div>
       </Carousel.Item>
@@ -68,9 +68,9 @@ const CarouselSection = () => {
           <picture>
             <source
               media="(min-width: 720px)"
-              srcSet="/images/landscape/about1-fe.jpeg"
+              srcSet="/images/landscape/services1.jpg"
             ></source>
-            <img src="/images/landscape/about1-fe.jpeg" alt="about1-fe" />
+            <img src="/images/landscape/services1.jpg" alt="about1-m" />
           </picture>
         </div>
       </Carousel.Item>
@@ -79,9 +79,9 @@ const CarouselSection = () => {
           <picture>
             <source
               media="(min-width: 720px)"
-              srcSet="/images/landscape/about1-m.jpeg"
+              srcSet="/images/landscape/about1-m.JPG"
             ></source>
-            <img src="/images/landscape/about1-m.jpeg" alt="about1-m" />
+            <img src="/images/landscape/about1-m.JPG" alt="about1-fe" />
           </picture>
         </div>
       </Carousel.Item>
@@ -90,20 +90,9 @@ const CarouselSection = () => {
           <picture>
             <source
               media="(min-width: 720px)"
-              srcSet="/images/landscape/about2-fe.jpeg"
+              srcSet="/images/landscape/services2.jpg"
             ></source>
-            <img src="/images/landscape/about2-fe.jpeg" alt="about1-fe" />
-          </picture>
-        </div>
-      </Carousel.Item>
-      <Carousel.Item>
-        <div className={style.image}>
-          <picture>
-            <source
-              media="(min-width: 720px)"
-              srcSet="/images/landscape/about2-m.jpeg"
-            ></source>
-            <img src="/images/landscape/about2-m.jpeg" alt="about2-m" />
+            <img src="/images/landscape/services2.jpg" alt="about2-m" />
           </picture>
         </div>
       </Carousel.Item>
