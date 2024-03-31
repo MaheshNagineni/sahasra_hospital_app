@@ -1,15 +1,40 @@
+import dynamic from "next/dynamic";
 import styles from "./page.module.css";
-import BookAppointment from "./ui/components/BookAppointment";
-import CarouselSection from "./ui/components/Carousel";
-import Footer from "./ui/components/Footer";
-import Gallery from "./ui/components/Gallery";
-import HostpitalInto from "./ui/components/HospitalIntro";
+import { Skeleton } from "@mui/material";
+
+const CarouselSection = dynamic(() => import("./ui/components/Carousel"), {
+  ssr: false,
+  loading: () => <Skeleton variant="rounded" width="100%" height={540} />,
+});
+
+const HostpitalIntro = dynamic(() => import("./ui/components/HospitalIntro"), {
+  ssr: false,
+  loading: () => <Skeleton variant="rounded" width="100%" height={540} />,
+});
+
+const BookAppointment = dynamic(
+  () => import("./ui/components/BookAppointment"),
+  {
+    ssr: false,
+    loading: () => <Skeleton variant="rounded" width="100%" height={540} />,
+  }
+);
+
+const Gallery = dynamic(() => import("./ui/components/Gallery"), {
+  ssr: false,
+  loading: () => <Skeleton variant="rounded" width="100%" height={720} />,
+});
+
+const Footer = dynamic(() => import("./ui/components/Footer"), {
+  ssr: false,
+  loading: () => <Skeleton variant="rounded" width="100%" height={340} />,
+});
 
 export default function Home() {
   return (
     <main className={styles.main}>
       <CarouselSection />
-      <HostpitalInto />
+      <HostpitalIntro />
       <BookAppointment />
       <Gallery />
       <Footer />
