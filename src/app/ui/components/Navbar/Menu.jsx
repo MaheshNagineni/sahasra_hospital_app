@@ -31,7 +31,7 @@ const navLinks = [
   { name: "Hospital & Doctors", url: "/#hospital" },
   { name: "Book Appointment", url: "/#appointment" },
   { name: "Gallery", url: "/#gallery" },
-  { name: "About Us", url: "/#about-us" },
+  { name: "About & Contacts", url: "/#about-us" },
   { name: "Follow Us", url: "/#follow-us" },
 ];
 

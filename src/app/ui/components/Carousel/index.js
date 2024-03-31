@@ -1,5 +1,5 @@
 "use client";
-import { Button, Carousel } from "react-bootstrap";
+import { Carousel } from "react-bootstrap";
 import style from "./Carousel.module.css";
 
 const CarouselSection = () => {
@@ -9,60 +9,103 @@ const CarouselSection = () => {
         <div className={style.image}>
           <picture>
             <source
-              media="(min-width: 1024px)"
-              srcSet="/images/landscape/image1l.jpg"
+              media="(min-width: 720px)"
+              srcSet="/images/potrait/female-doc.webp"
             ></source>
-            <img src="/images/potrait/image1p.jpg" alt="Image 1" />
+            <img src="/images/potrait/female-doc.webp" alt="female-doc" />
           </picture>
         </div>
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <div className={style.center}>
-            <p className={style.p}>
-              Ddfhsdfhs dhfsdjhf kjsdhfdskjh fkdshfkdsjf .
-            </p>
-          </div>
-        </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <div className={style.image}>
           <picture>
             <source
               media="(min-width: 720px)"
-              srcSet="/images/landscape/image2l.jpg"
+              srcSet="/images/potrait/male-doc.webp"
             ></source>
-            <img src="/images/potrait/image2p.jpg" alt="Image 2" />
+            <img src="/images/potrait/male-doc.webp" alt="male-doc" />
           </picture>
         </div>
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <div className={style.center}>
-            <p className={style.p}>
-              sfhdkjsgh dhgkdjgh kjdhgjdkf ghjdfkghdj fghdfkjg
-            </p>
-          </div>
-        </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <div className={style.image}>
           <picture>
             <source
               media="(min-width: 720px)"
-              srcSet="/images/landscape/image3l.jpg"
+              srcSet="/images/landscape/sahasra-card.jpeg"
             ></source>
-            <img src="/images/potrait/image3p.jpg" alt="Image 1" />
+            <img
+              src="/images/potrait/sahasra-contact-card.jpeg"
+              alt="sahasra-card"
+            />
           </picture>
         </div>
-        <Carousel.Caption>
-          <Button onClick={() => alert("Not yet implemented")}>
-            Third slide Button
-          </Button>
-          <div className={style.center}>
-            <p className={style.p}>
-              sfhdkjsgh dhgkdjgh kjdhgjdkf ghjdfkghdj fghdfkjg
-            </p>
-          </div>
-        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <div className={style.image}>
+          <picture>
+            <source
+              media="(min-width: 720px)"
+              srcSet="/images/potrait/rates1.JPG"
+            ></source>
+            <img src="/images/potrait/rates1.JPG" alt="rates1" />
+          </picture>
+        </div>
+      </Carousel.Item>
+      <Carousel.Item>
+        <div className={style.image}>
+          <picture>
+            <source
+              media="(min-width: 720px)"
+              srcSet="/images/potrait/rate2.JPG"
+            ></source>
+            <img src="/images/potrait/rate2.JPG" alt="rates2" />
+          </picture>
+        </div>
+      </Carousel.Item>
+      <Carousel.Item>
+        <div className={style.image}>
+          <picture>
+            <source
+              media="(min-width: 720px)"
+              srcSet="/images/landscape/about1-fe.jpeg"
+            ></source>
+            <img src="/images/landscape/about1-fe.jpeg" alt="about1-fe" />
+          </picture>
+        </div>
+      </Carousel.Item>
+      <Carousel.Item>
+        <div className={style.image}>
+          <picture>
+            <source
+              media="(min-width: 720px)"
+              srcSet="/images/landscape/about1-m.jpeg"
+            ></source>
+            <img src="/images/landscape/about1-m.jpeg" alt="about1-m" />
+          </picture>
+        </div>
+      </Carousel.Item>
+      <Carousel.Item>
+        <div className={style.image}>
+          <picture>
+            <source
+              media="(min-width: 720px)"
+              srcSet="/images/landscape/about2-fe.jpeg"
+            ></source>
+            <img src="/images/landscape/about2-fe.jpeg" alt="about1-fe" />
+          </picture>
+        </div>
+      </Carousel.Item>
+      <Carousel.Item>
+        <div className={style.image}>
+          <picture>
+            <source
+              media="(min-width: 720px)"
+              srcSet="/images/landscape/about2-m.jpeg"
+            ></source>
+            <img src="/images/landscape/about2-m.jpeg" alt="about2-m" />
+          </picture>
+        </div>
       </Carousel.Item>
     </Carousel>
   );
