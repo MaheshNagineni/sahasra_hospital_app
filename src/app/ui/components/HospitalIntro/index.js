@@ -18,7 +18,7 @@ const HostpitalIntro = () => {
               <p className="subheading">Psychiatry</p>
               <p className="text">
                 We provide psychiatry treatment for all disorders like
-                schizophrenia,BIPOLAR,disorder,depression,anxiety behavioural
+                schizophrenia, BIPOLAR disorder, depression, anxiety behavioural
                 disturbances. We have counselling services for all problems and
                 we treat sleep problems and also de-addiction for alcohol,
                 cigarettes,cannabis,gaming. We also provide stress management
