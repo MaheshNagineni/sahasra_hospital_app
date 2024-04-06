@@ -113,7 +113,7 @@ const Footer = () => {
             <FontAwesomeIcon icon={faLinkedin} size="2xl" />
           </Link>
           <Link
-            href="https://api.whatsapp.com/send?phone=123456789"
+            href="https://api.whatsapp.com/send?phone=9014046924"
             target="_blank"
           >
             <FontAwesomeIcon icon={faWhatsapp} size="2xl" />
