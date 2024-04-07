@@ -13,7 +13,7 @@ const NavBar = () => {
   const [displayMenu, setDisplayMenu] = useState(false);
 
   useEffect(() => {
-    if (width >= 786 && displayMenu === false) setDisplayMenu(true);
+    if (width >= 1025 && displayMenu === false) setDisplayMenu(true);
 
     return () => {};
   });

@@ -124,13 +124,13 @@
   color: var(--color5);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;}
 
-@media (max-width: 768px) {
+@media (max-width: 1025px) {
   .logo {
     width: 100px;
   }
 
   .ham {
-    display: inline-flex;
+    display: inline;
   }
 
   .menuLink {
@@ -142,7 +142,7 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1025px) {
   .menuWrapper {
     width: auto;
     display: block;
